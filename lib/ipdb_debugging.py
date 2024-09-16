@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-import ipdb
-
 def plus_two(num):
-    num + 2
+    num = num + 2  # Correctly update num with the addition
     return num

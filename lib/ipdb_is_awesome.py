@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import ipdb
 
 def tracing_the_function():
@@ -7,6 +5,8 @@ def tracing_the_function():
     print(inside_the_function)
     print("We're about to stop because of ipdb!")
     ipdb.set_trace()
+    # At this point, you can check the value of 'inside_the_function'
+    # and verify that the code execution is paused.
     this_variable_hasnt_been_interpreted_yet = \
         "The program froze before it could read me!"
     print(this_variable_hasnt_been_interpreted_yet)
